@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-app = FastAPI(port=8080)
+app = FastAPI()
 
 @app.get("/")
 def index():
